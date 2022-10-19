@@ -11,7 +11,7 @@ thailand_temprain %>% ggplot(aes(International.tourists..2016., Temperature))+
 
 #change all to numeric
 
-thailand_temprain$Temperature <- as.numeric(thailand_temprain$Temperature)
+thailand_temprain$Temperature <-as.numeric(thailand_temprain$Temperature)
 
 thailand_temprain$Rainfall <- as.numeric(thailand_temprain$Rainfall)
 
