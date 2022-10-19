@@ -1,5 +1,5 @@
 thailand_temprain<- read.csv("/Users/williamparrott/Desktop/Documents/R/R practice/Thailand_test_data.csv")
-
+k
 #for some reason there are empty rows and columns
 
 thailand_temprain <-thailand_temprain[1:5] %>% filter(!is.na(month))
