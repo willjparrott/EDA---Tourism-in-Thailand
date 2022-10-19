@@ -2,7 +2,7 @@ thailand_temprain<- read.csv("/Users/williamparrott/Desktop/Documents/R/R practi
 
 #for some reason there are empty rows and columns
 
-thailand_temprain <- thailand_temprain[1:5] %>% filter(!is.na(month))
+thailand_temprain <-thailand_temprain[1:5] %>% filter(!is.na(month))
 
 thailand_temprain <- thailand_temprain[1:5] %>% filter(!is.na(Rainfall))
 
